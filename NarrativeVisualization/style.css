@@ -4,6 +4,15 @@ button {
     cursor: pointer;
 }
 
+#buttons {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
 button.active {
     background-color: black;
     color: white;
@@ -62,4 +71,11 @@ button:hover {
 
 .center {
     text-align: center;
+}
+
+#chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
