@@ -1,0 +1,65 @@
+button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: #2f4f6f;
+}
+
+.annotation {
+    font-size: 16px;
+    fill: black;
+    font-weight: bold;
+}
+
+.line {
+    fill: none;
+    stroke-width: 3px;
+}
+
+#navigation{
+    margin:20px 0;
+    text-align:center;
+}
+
+#annotation{
+    width:900px;
+    margin:auto;
+    padding:12px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    font-size:18px;
+    text-align:center;
+}
+
+.genre-button.active{
+    background:#4e79a7;
+    color:white;
+}
+
+.tooltip {
+    position: absolute;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    opacity: 0;
+    font-size: 14px;
+    z-index: 100;
+}
+
+.hover-line {
+    cursor: pointer;
+}
+
+.center {
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Movie Sales By Genre Over Time </title>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="init()">
+    <h1 class="center">
+        Movie Sales By Genre Over Time
+    </h1>
+
+    <h2 class="center">
+        Hover over any line to see more!
+    </h2>
+
+    <p id="sceneTitle" class="center"></p>
+
+    <div id="annotation"></div>
+
+    <div id="navigation">
+        <button id="prevButton"> Previous </button>
+
+        <span id="sceneNumber"></span>
+
+        <button id="nextButton"> Next </button>
+    </div>
+
+    <div id="buttons"></div>
+
+    <div id="chart"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
